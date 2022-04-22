@@ -1,4 +1,5 @@
 class Article < ApplicationRecord
+    #added stuff
     has_one :category
 
     validates_presence_of :title
